@@ -1,0 +1,949 @@
+/**
+ ****    CONTENT     ****
+ *
+ * 35. LAYOUT WITHOUT HEADER , NAVBAR & FOOTER.
+ * 51. HEADER.
+ * 94. NAVBAR.
+ * 132. BIG POSTS.
+   * 135. Featured blog post.
+   * 201. Sample blog post.
+   * 266. Blog post with image.
+   * 342. Another blog post.
+ * 409. Small posts.
+   * 413. Business.
+   * 456. Culture.
+   * 501. Top from 'Latest news'.
+   * 524. Design.
+   * 569. Health.
+   * 613. Politics.
+   * 657. First small button 'View all news'.
+   * 680. Top from post 'Recommended news'.
+   * 703. Science.
+   * 747. Travel.
+   * 790. World.
+   * 834. Second button 'View all news'.
+   * 857. List with Categories.
+ * 921. Footer.
+ *
+ **/
+
+
+
+
+
+/*------------------------------------*\
+  #LAYOUT WITHOUT HEADER , NAVBAR & FOOTER
+\*------------------------------------*/
+
+.layout {
+  position: relative;
+  width:    60vw;
+  height:   1990px;
+  margin:   auto;
+  background-color: #FFFFFF;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.header {
+  background-color: #6200EA;
+  height:           5vh;
+}
+
+  .header--button {
+    background:     #FFFFFF 0% 0% no-repeat padding-box;
+    border:         2px solid #FFFFFF;
+    opacity:        1;
+    color:          #6200EA;
+    text-align:     center;
+    font-size:      16px;
+    border-radius:  24px;
+    margin:         6px 2px;
+    margin-left:    30vh;
+    width:          160px;
+    height:         35px;
+    text-transform: uppercase;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+  }
+
+
+  .logo {
+    margin-left:    35vh;
+    color:          white;
+    letter-spacing: 2.4px;
+  }
+
+    .logo--text {
+      font:           normal normal bold 12px/15px Montserrat;
+      color:          white;
+      letter-spacing: 2.4px;
+    }
+
+
+
+
+
+/*------------------------------------*\
+  #NAVBAR
+\*------------------------------------*/
+
+nav {
+  width:  100vw;
+  height: 5vh;
+}
+
+  nav a {
+    text-decoration: none;
+    text-align:      center;
+    margin-left:     80px;
+    padding-bottom:  12px;
+  }
+
+  a:first-child {
+    margin-left: 34vh;
+  }
+
+  a:active,
+  a:visited,
+  a:focus {
+    text-decoration: none;
+    border-bottom:   3px solid #6200EA;
+  }
+
+
+.navbar {
+  position: relative;
+  top:      1.5vh;
+  font:     normal normal bold 12px/15px Montserrat;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #BIG POSTS
+\*------------------------------------*/
+
+/* First big post "Featured blog post" */
+
+.featured__blog {
+  height:           350px;
+  width:            730px;
+  background-image: url('file:///D:/ATOM LUCRU/First Bloggie/assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
+  background-size:  cover;
+  margin:           0;
+  padding:          0;
+  border-radius:    15px;
+}
+
+  .featured__blog--wrapper h6 {
+    position:       absolute;
+    left:           60px;
+    top:            60px;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #FFFFFF;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+  .featured__blog--wrapper h2 {
+    position:       absolute;
+    left:           60px;
+    top:            90px;
+    text-align:     left;
+    font:           normal normal bold 40px/50px Montserrat;
+    letter-spacing: 0px;
+    color:          #FFFFFF;
+    opacity:        1;
+  }
+
+  .featured__blog--wrapper p {
+    position:       absolute;
+    left:           60px;
+    top:            155px;
+    right:          685px;
+    text-align:     left;
+    font:           normal normal normal 20px/30px Montserrat;
+    letter-spacing: 0px;
+    opacity:        1;
+    color:          #FFFFFF;
+  }
+
+  .featured__blog--wrapper .button {
+    position:       absolute;
+    left:           60px;
+    top:            285px;
+    border:         2px solid #FFFFFF;
+    border-radius:  24px;
+    opacity:        1;
+    background:     transparent;
+    color:          #FFFFFF;
+    width:          160px;
+    height:         40px;
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+
+/* Second big post "Sample blog post" */
+
+.layout__sample {
+  position:         absolute;
+  top:              560px;
+  left:             0px;
+  width:            730px;
+  height:           350px;
+  background-color: #FFFFFF;
+  border-radius:    15px;
+}
+
+  .layout__sample h6 {
+    position:       absolute;
+    top:            60px;
+    left:           60px;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #B2ACBA;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+  .layout__sample h2 {
+    position:       absolute;
+    top:            90px;
+    left:           60px;
+    text-align:     left;
+    font:           normal normal bold 40px/50px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+  .layout__sample p {
+    position:       absolute;
+    top:            155px;
+    left:           60px;
+    text-align:     left;
+    font:           normal normal normal 20px/30px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+  .layout__sample .button {
+    position:       absolute;
+    left:           60px;
+    top:            260px;
+    border:         2px solid #6200EA;
+    border-radius:  24px;
+    opacity:        1;
+    background:     transparent;
+    color:          #6200EA;
+    width:          160px;
+    height:         40px;
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+
+/* Third blog post "Blog post with image" */
+
+.blog__post {
+  position: absolute;
+  width:    730px;
+  height:   670px;
+  left:     0;
+  top:      940px;
+}
+
+  .blog__post img {
+    position:      absolute;
+    top:           0px;
+    left:          0px;
+    width:         730px;
+    height:        320px;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .blog__post h6 {
+    position:       absolute;
+    top:            380px;
+    left:           60px;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #B2ACBA;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+  .blog__post h2 {
+    position:       absolute;
+    top:            410px;
+    left:           60px;
+    width:          610px;
+    height:         50px;
+    text-align:     left;
+    font:           normal normal bold 40px/50px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+  .blog__post p {
+    position:       absolute;
+    top:            465px;
+    left:           60px;
+    width:          610px;
+    height:         90px;
+    text-align:     left;
+    font:           normal normal normal 20px/30px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+  .blog__post .button {
+    position:       absolute;
+    left:           60px;
+    top:            585px;
+    border:         2px solid #6200EA;
+    border-radius:  24px;
+    opacity:        1;
+    background:     transparent;
+    color:          #6200EA;
+    width:          160px;
+    height:         40px;
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+
+/* Fourth big post "Another blog post" */
+
+.another__blog {
+  position: absolute;
+  top:      1640px;
+  left:     0px;
+  width:    730px;
+  height:   350px;
+  }
+
+  .another__blog h6 {
+    position:       absolute;
+    top:            60px;
+    left:           60px;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #B2ACBA;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+  .another__blog h2 {
+    position:       absolute;
+    top:            90px;
+    left:           60px;
+    text-align:     left;
+    font:           normal normal bold 40px/50px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+  .another__blog p {
+    position:       absolute;
+    top:            145px;
+    left:           60px;
+    text-align:     left;
+    font:           normal normal normal 20px/30px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+  .another__blog .button {
+    position:       absolute;
+    left:           60px;
+    top:            265px;
+    border:         2px solid #6200EA;
+    border-radius:  24px;
+    opacity:        1;
+    background:     transparent;
+    color:          #6200EA;
+    width:          160px;
+    height:         40px;
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+
+
+
+
+  /*------------------------------------*\
+    #SMALL POSTS
+  \*------------------------------------*/
+
+
+/* Small post 'Business' */
+
+.layout__business {
+  width:            350px;
+  height:           160px;
+  background-color: white;
+  position:         absolute;
+  top:              370px;
+  border-radius:    15px;
+}
+
+  .layout__business img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__business h6 {
+    position:       absolute;
+    left:           160px;
+    top:            20px;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+  .layout__business p {
+    position:       absolute;
+    left:           160px;
+    top:            50px;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+
+/* Small post 'Culture' */
+
+.layout__culture {
+  width:            350px;
+  height:           160px;
+  position:         absolute;
+  left:             370px;
+  top:              370px;
+  background-color: white;
+  border-radius:    15px;
+}
+
+  .layout__culture img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__culture h6 {
+    position:       absolute;
+    left:           160px;
+    top:            20px;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+  .layout__culture p {
+    position:       absolute;
+    left:           160px;
+    top:            50px;
+    right: 20px;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+  }
+
+
+/* The top from small posts 'Latest news' */
+
+.latest__news {
+  position:         absolute;
+  width:            350px;
+  height:           60px;
+  left:             760px;
+  top:              0px;
+  background-color: #6200EA;
+  border-radius:    15px 15px 0px 0px;
+}
+
+  .latest__news h6 {
+    padding-top:    17px;
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #FFFFFF;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+
+/* Small post 'Design' */
+
+.layout__design {
+  position:         absolute;
+  left:             760px;
+  top:              60px;
+  width:            350px;
+  height:           160px;
+  color:            #FFFFFF;
+  background-color: white;
+}
+
+  .layout__design img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__design h6 {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+    left:           160px;
+    top:            20px;
+  }
+
+  .layout__design p {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+    left:           160px;
+    top:            50px;
+  }
+
+
+/* Small post 'Health' */
+
+.layout__health {
+  position:         absolute;
+  left:             760px;
+  top:              220px;
+  width:            350px;
+  height:           160px;
+  background-color: #FFFFFF;
+}
+
+  .layout__health img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__health h6 {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+    left:           160px;
+    top:            20px;
+  }
+
+  .layout__health p {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+    left:           160px;
+    top:            50px;
+  }
+
+
+/* Small post 'Politics' */
+
+.layout__politics {
+  width:            350px;
+  height:           160px;
+  position:         absolute;
+  top:              380px;
+  left:             760px;
+  background-color: #FFFFFF;
+}
+
+  .layout__politics img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__politics h6 {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+    left:           160px;
+    top:            20px;
+  }
+
+  .layout__politics p {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+    left:           160px;
+    top:            50px;
+  }
+
+
+/* First small button 'View all news' */
+
+.layout__allnews1 {
+  position:         absolute;
+  left:             760px;
+  top:              541px;
+  background-color: #FFFFFF;
+  width:            350px;
+  height:           60px;
+  border-radius:    0px 0px 15px 15px;
+}
+
+  .layout__allnews1 h6 {
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #B2ACBA;
+    text-transform: uppercase;
+    opacity:        1;
+    padding-top:    16px;
+  }
+
+
+/* The top from small posts 'Recommended news' */
+
+.layout__recommended {
+  position:         absolute;
+  width:            350px;
+  height:           60px;
+  left:             760px;
+  top:              630px;
+  background-color: #6200EA;
+  border-radius:    15px 15px 0px 0px;
+}
+
+  .layout__recommended h6 {
+    padding-top:    17px;
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #FFFFFF;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+
+/* Small post 'Science' */
+
+.layout__science {
+  position:         absolute;
+  width:            350px;
+  height:           160px;
+  top:              690px;
+  left:             760px;
+  background-color: #FFFFFF;
+}
+
+  .layout__science img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__science h6 {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+    left:           160px;
+    top:            20px;
+  }
+
+  .layout__science p {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+    left:           160px;
+    top:            50px;
+  }
+
+
+/* Small post 'Travel' */
+.layout__travel {
+  position:         absolute;
+  width:            350px;
+  height:           160px;
+  top:              850px;
+  left:             760px;
+  background-color: #FFFFFF;
+}
+
+  .layout__travel img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__travel h6 {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+    left:           160px;
+    top:            20px;
+  }
+
+  .layout__travel p {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+    left:           160px;
+    top:            50px;
+  }
+
+
+/* Small post 'World' */
+
+.layout__world {
+  position:         absolute;
+  width:            350px;
+  height:           160px;
+  top:              1010px;
+  left:             760px;
+  background-color: #FFFFFF;
+}
+
+  .layout__world img {
+    width:         120px;
+    height:        120px;
+    position:      absolute;
+    left:          20px;
+    top:           20px;
+    border-radius: 10px;
+  }
+
+  .layout__world h6 {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+    opacity:        1;
+    left:           160px;
+    top:            20px;
+  }
+
+  .layout__world p {
+    position:       absolute;
+    text-align:     left;
+    font:           normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color:          #211138;
+    opacity:        1;
+    left:           160px;
+    top:            50px;
+  }
+
+
+/* The second small button 'View all news' */
+
+.layout__allnews2 {
+  position:         absolute;
+  left:             760px;
+  top:              1171px;
+  background-color: #FFFFFF;
+  width:            350px;
+  height:           60px;
+  border-radius:    0px 0px 15px 15px;
+}
+
+  .layout__allnews2 h6 {
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #B2ACBA;
+    text-transform: uppercase;
+    opacity:        1;
+    padding-top:    16px;
+  }
+
+
+/* Small list with 'Categories' */
+
+.layout__categories {
+  position:         absolute;
+  width:            350px;
+  height:           60px;
+  left:             760px;
+  top:              1261px;
+  background-color: #6200EA;
+  border-radius:    15px 15px 0px 0px;
+}
+
+  .layout__categories h6 {
+    padding-top:    17px;
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #FFFFFF;
+    text-transform: uppercase;
+    opacity:        1;
+  }
+
+  .layout__categories--list {
+    position:         absolute;
+    left:             760px;
+    top:              1321px;
+    width:            320px;
+    height:           400px;
+    text-align:       left;
+    font:             normal normal bold 12px/15px Montserrat;
+    letter-spacing:   2.4px;
+    color:            #211138;
+    text-transform:   uppercase;
+    opacity:          1;
+    line-height:      50px;
+    padding-left:     30px;
+    background-color: #FFFFFF;
+  }
+
+  .layout__categories--see {
+    position:         absolute;
+    left:             760px;
+    top:              1721px;
+    background-color: #FFFFFF;
+    width:            350px;
+    height:           60px;
+    border-radius:    0px 0px 15px 15px;
+  }
+
+  .layout__categories--see h6 {
+    text-align:     center;
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #B2ACBA;
+    text-transform: uppercase;
+    opacity:        1;
+    padding-top:    16px;
+  }
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+footer {
+  width:            100vw;
+  height:           100px;;
+  text-align:       center;
+  background-color: #211138;
+}
+
+  .wrapper {
+    display:        table-cell;
+    vertical-align: middle;
+  }
+
+  footer p {
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    opacity:        1;
+    color:          #FFFFFF;
+  }
+
+  footer strong {
+    font:           normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    color:          #6200EA;
+    text-transform: uppercase;
+  }
